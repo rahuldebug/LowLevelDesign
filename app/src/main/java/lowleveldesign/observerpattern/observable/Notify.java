@@ -1,6 +1,6 @@
-package lowleveldesign.observable;
+package lowleveldesign.observerpattern.observable;
 
-import lowleveldesign.observer.Observer;
+import lowleveldesign.observerpattern.observer.Observer;
 
 import java.util.ArrayList;
 import java.util.List;

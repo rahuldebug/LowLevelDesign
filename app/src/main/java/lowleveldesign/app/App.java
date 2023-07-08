@@ -3,10 +3,12 @@
  */
 package lowleveldesign.app;
 
-import lowleveldesign.observable.Notify;
-import lowleveldesign.observable.Observable;
-import lowleveldesign.observer.Observer;
-import lowleveldesign.observer.Client;
+import lowleveldesign.decoratorpattern.base.ClassicPizza;
+import lowleveldesign.decoratorpattern.decorators.ExtraCheese;
+import lowleveldesign.observerpattern.observable.Notify;
+import lowleveldesign.observerpattern.observable.Observable;
+import lowleveldesign.observerpattern.observer.Observer;
+import lowleveldesign.observerpattern.observer.Client;
 
 public class App {
     public static void main(String[] args) {
@@ -15,6 +17,8 @@ public class App {
         Observer observer = new Client(observable, "abc@gmail.com");
         observable.add(observer);
         observable.addInventory();
+//for decorator
+        System.out.println(new ExtraCheese(new ClassicPizza()).cost());
 
     }
 }
