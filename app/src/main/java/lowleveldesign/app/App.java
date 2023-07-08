@@ -3,19 +3,18 @@
  */
 package lowleveldesign.app;
 
-import lowleveldesign.list.LinkedList;
-
-import static lowleveldesign.utilities.StringUtils.join;
-import static lowleveldesign.utilities.StringUtils.split;
-import static lowleveldesign.app.MessageUtils.getMessage;
-
-import org.apache.commons.text.WordUtils;
+import lowleveldesign.observable.Notify;
+import lowleveldesign.observable.Observable;
+import lowleveldesign.observer.Observer;
+import lowleveldesign.observer.Client;
 
 public class App {
     public static void main(String[] args) {
-        LinkedList tokens;
-        tokens = split(getMessage());
-        String result = join(tokens);
-        System.out.println(WordUtils.capitalize(result));
+//this is for observer design pattern
+        Observable observable = new Notify();
+        Observer observer = new Client(observable, "abc@gmail.com");
+        observable.add(observer);
+        observable.addInventory();
+
     }
 }
