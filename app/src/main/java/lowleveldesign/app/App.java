@@ -25,6 +25,7 @@ public class App {
         SportsDriveStrategy sportsDriveStrategy= new SportsDriveStrategy();
         SportsUtilityVehicle sportsUtilityVehicle= new SportsUtilityVehicle(sportsDriveStrategy);
         sportsUtilityVehicle.display();
+        sportsUtilityVehicle.driveStrategy.drive();
 
 
     }
