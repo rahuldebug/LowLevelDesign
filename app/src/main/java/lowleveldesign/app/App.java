@@ -5,6 +5,7 @@ package lowleveldesign.app;
 
 import lowleveldesign.decoratorpattern.base.ClassicPizza;
 import lowleveldesign.decoratorpattern.decorators.ExtraCheese;
+import lowleveldesign.factorypattern.shapefactory.ShapeFactory;
 import lowleveldesign.observerpattern.observable.Notify;
 import lowleveldesign.observerpattern.observable.Observable;
 import lowleveldesign.observerpattern.observer.Observer;
@@ -26,6 +27,9 @@ public class App {
         SportsUtilityVehicle sportsUtilityVehicle= new SportsUtilityVehicle(sportsDriveStrategy);
         sportsUtilityVehicle.display();
         sportsUtilityVehicle.driveStrategy.drive();
+//for factory
+        ShapeFactory shapeFactory= new ShapeFactory();
+        shapeFactory.getShape("circle").draw();
 
 
     }
