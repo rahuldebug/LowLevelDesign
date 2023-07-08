@@ -9,6 +9,8 @@ import lowleveldesign.observerpattern.observable.Notify;
 import lowleveldesign.observerpattern.observable.Observable;
 import lowleveldesign.observerpattern.observer.Observer;
 import lowleveldesign.observerpattern.observer.Client;
+import lowleveldesign.strategy.drivestrategy.SportsDriveStrategy;
+import lowleveldesign.strategy.vehicle.SportsUtilityVehicle;
 
 public class App {
     public static void main(String[] args) {
@@ -19,6 +21,11 @@ public class App {
         observable.addInventory();
 //for decorator
         System.out.println(new ExtraCheese(new ClassicPizza()).cost());
+//Strategy Design Pattern
+        SportsDriveStrategy sportsDriveStrategy= new SportsDriveStrategy();
+        SportsUtilityVehicle sportsUtilityVehicle= new SportsUtilityVehicle(sportsDriveStrategy);
+        sportsUtilityVehicle.display();
+
 
     }
 }
