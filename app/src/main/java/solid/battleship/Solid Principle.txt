@@ -1,0 +1,39 @@
+S--> Single responsibility
+O--> Open-Closed principle
+L--> Liskov's substitution Principle
+I--> Interface Segregation Principle
+D--> Dependency Inversion Principle
+
+1> Single responsibility , a class should change for one and only one reason .
+A class should have only one responsibility.
+
+In our game "battleship" we are designing the game based on solid principle
+every class here is changing for one and only one reason
+
+Ship is being used to Create only ships
+Moves are used creating only moves
+
+Game Map for creating Game Map
+
+
+2> Open Closed principle , Open for Extension and closed for Modification
+Ship and Move are both Open for extension and closed for Modification
+this will help us to write scalable and bug free code  .
+
+
+3>Liskov's Substitution Principle
+It state that if class A is subtype of B , we should be able to substitute A with B
+Ship can be Substituted with Submarine and vice versa
+
+4>Interface Segregation Principle , Interface or Abstract classes should be as granular
+as possible , so there is not unused methods or code duplication
+here we can create Dummy ship which don't move , hence move was segregated out .
+
+Dependency Inversion Principle , Classes should be coded for interface , resulting
+in loose coupling . Here we have adhered to same
+
+/*
+Improvements , instead of abstract classes , interface would be more flexible
+ this can be actually created as game . let's do it sometime in future
+ Date 17/05/2024
+ */

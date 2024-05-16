@@ -1,4 +1,4 @@
-package solid.openclosed;
+package solid.battleship.ships;
 
 public enum ShipType {
     SUBMARINE,
