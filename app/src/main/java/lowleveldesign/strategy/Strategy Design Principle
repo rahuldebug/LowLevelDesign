@@ -1,0 +1,3 @@
+Strategy Design Principle is used for Inheritance scaling ,
+by segregating the interface we avoid better code usability and avoid code duplication .
+
