@@ -1,4 +1,10 @@
 package solid.openclosed;
 
-public  enum ShipType {
+public enum ShipType {
+    SUBMARINE,
+    DESTROYER,
+
+    DUMMY
+
+
 }
