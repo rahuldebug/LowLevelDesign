@@ -1,6 +1,6 @@
-package lowleveldesign.decoratorpattern.decorators;
+package lowleveldesign.Structural.decoratorpattern.decorators;
 
-import lowleveldesign.decoratorpattern.base.BasePizza;
+import lowleveldesign.Structural.decoratorpattern.base.BasePizza;
 
 public class ExtraCheese extends BasePizza {
     BasePizza basePizza;

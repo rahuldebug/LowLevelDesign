@@ -1,6 +1,6 @@
-package lowleveldesign.observerpattern.observer;
+package lowleveldesign.behavioral.observerpattern.observer;
 
-import lowleveldesign.observerpattern.observable.Observable;
+import lowleveldesign.behavioral.observerpattern.observable.Observable;
 
 import java.util.Objects;
 

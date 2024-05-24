@@ -1,4 +1,4 @@
-package lowleveldesign.decoratorpattern.base;
+package lowleveldesign.Structural.decoratorpattern.base;
 
 public class MargerritaPizza extends BasePizza{
     @Override

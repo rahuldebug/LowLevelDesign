@@ -1,4 +1,4 @@
-package lowleveldesign.strategy.drivestrategy;
+package lowleveldesign.behavioral.strategy.drivestrategy;
 
 public class NormalDriveStrategy implements DriveStrategy{
     @Override

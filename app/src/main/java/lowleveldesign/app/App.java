@@ -3,15 +3,15 @@
  */
 package lowleveldesign.app;
 
-import lowleveldesign.decoratorpattern.base.ClassicPizza;
-import lowleveldesign.decoratorpattern.decorators.ExtraCheese;
+import lowleveldesign.Structural.decoratorpattern.base.ClassicPizza;
+import lowleveldesign.Structural.decoratorpattern.decorators.ExtraCheese;
 import lowleveldesign.factorypattern.shapefactory.ShapeFactory;
 import lowleveldesign.observerpattern.observable.Notify;
 import lowleveldesign.observerpattern.observable.Observable;
 import lowleveldesign.observerpattern.observer.Observer;
 import lowleveldesign.observerpattern.observer.Client;
-import lowleveldesign.strategy.drivestrategy.SportsDriveStrategy;
-import lowleveldesign.strategy.vehicle.SportsUtilityVehicle;
+import lowleveldesign.behavioral.strategy.drivestrategy.SportsDriveStrategy;
+import lowleveldesign.behavioral.strategy.vehicle.SportsUtilityVehicle;
 
 public class App {
     public static void main(String[] args) {

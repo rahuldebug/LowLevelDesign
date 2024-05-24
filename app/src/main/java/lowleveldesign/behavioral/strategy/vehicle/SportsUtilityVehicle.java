@@ -1,6 +1,6 @@
-package lowleveldesign.strategy.vehicle;
+package lowleveldesign.behavioral.strategy.vehicle;
 
-import lowleveldesign.strategy.drivestrategy.DriveStrategy;
+import lowleveldesign.behavioral.strategy.drivestrategy.DriveStrategy;
 
 public class SportsUtilityVehicle implements BaseVehicle{
     public DriveStrategy driveStrategy;

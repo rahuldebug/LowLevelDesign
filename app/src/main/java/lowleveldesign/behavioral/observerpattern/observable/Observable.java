@@ -1,6 +1,6 @@
-package lowleveldesign.observerpattern.observable;
+package lowleveldesign.behavioral.observerpattern.observable;
 
-import lowleveldesign.observerpattern.observer.Observer;
+import lowleveldesign.behavioral.observerpattern.observer.Observer;
 
 public interface Observable {
     public void add(Observer observer);
