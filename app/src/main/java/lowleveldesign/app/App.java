@@ -5,11 +5,12 @@ package lowleveldesign.app;
 
 import lowleveldesign.Structural.decoratorpattern.base.ClassicPizza;
 import lowleveldesign.Structural.decoratorpattern.decorators.ExtraCheese;
+import lowleveldesign.behavioral.observerpattern.observable.Notify;
+import lowleveldesign.behavioral.observerpattern.observable.Observable;
+import lowleveldesign.behavioral.observerpattern.observer.Client;
+import lowleveldesign.behavioral.observerpattern.observer.Observer;
 import lowleveldesign.factorypattern.shapefactory.ShapeFactory;
-import lowleveldesign.observerpattern.observable.Notify;
-import lowleveldesign.observerpattern.observable.Observable;
-import lowleveldesign.observerpattern.observer.Observer;
-import lowleveldesign.observerpattern.observer.Client;
+
 import lowleveldesign.behavioral.strategy.drivestrategy.SportsDriveStrategy;
 import lowleveldesign.behavioral.strategy.vehicle.SportsUtilityVehicle;
 
