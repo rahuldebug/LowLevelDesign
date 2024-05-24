@@ -1,4 +1,4 @@
-package lowleveldesign.snakeladder.jump;
+package lowleveldesign.interview.snakeladder.jump;
 
 public class Snake implements Jump{
     @Override

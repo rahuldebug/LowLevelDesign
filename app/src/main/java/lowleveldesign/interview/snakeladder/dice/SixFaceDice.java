@@ -1,4 +1,4 @@
-package lowleveldesign.snakeladder.dice;
+package lowleveldesign.interview.snakeladder.dice;
 
 public class SixFaceDice implements Dice{
     @Override
