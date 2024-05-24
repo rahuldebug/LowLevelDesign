@@ -1,7 +1,6 @@
-package solid.battleship.moves;
+package lowleveldesign.solid.battleship.moves;
 
-import solid.battleship.moves.Move;
-import solid.battleship.ships.Ship;
+import lowleveldesign.solid.battleship.ships.Ship;
 
 public class BattleShipMove extends Move {
     protected BattleShipMove(Ship shipType) {

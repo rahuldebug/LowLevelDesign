@@ -1,7 +1,7 @@
-package solid.battleship.ships;
+package lowleveldesign.solid.battleship.ships;
 
-import solid.battleship.MultiplayerMap.GameMap;
-import solid.battleship.moves.Move;
+import lowleveldesign.solid.battleship.MultiplayerMap.GameMap;
+import lowleveldesign.solid.battleship.moves.Move;
 
 
 import java.util.List;

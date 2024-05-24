@@ -1,6 +1,6 @@
-package solid.battleship.MultiplayerMap;
+package lowleveldesign.solid.battleship.MultiplayerMap;
 
-import solid.battleship.ships.Ship;
+import lowleveldesign.solid.battleship.ships.Ship;
 
 import java.util.ArrayList;
 

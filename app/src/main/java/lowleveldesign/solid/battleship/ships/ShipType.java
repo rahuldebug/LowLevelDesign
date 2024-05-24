@@ -1,4 +1,4 @@
-package solid.battleship.ships;
+package lowleveldesign.solid.battleship.ships;
 
 public enum ShipType {
     SUBMARINE,
