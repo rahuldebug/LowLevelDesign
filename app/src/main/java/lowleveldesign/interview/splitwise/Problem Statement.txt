@@ -1,0 +1,42 @@
+Create a Split wise
+
+Initial discussion and clarification on functionality -->
+
+once done --> Object Identification ::
+
+User -->  String name ,
+          id would be telephone number
+
+
+Expense --> expense can be created for individual transaction between users
+String cash between persons  , 2 person . Basically single person owing (split logic would be straight forward )
+
+or
+
+Expense can be created for group
+so expense will have name , and map of user and their expense
+Group --> will have
+
+,
+expense can have different type of split , equal , percentage or many expenditure
+
+
+map of multiple users and thier expense .
+
+
+people can call call split controller and update thier expense
+
+this should be only done for multiple contri
+else this won't be allowed
+
+notification enfine (Observer) should be created
+
+
+Expense sheet --> Driving Object , which would have individual users or group , able to add expense or payments
+
+Split--> split controller  , split logic for individual or group (could support % split with validator ) factory pattern
+
+view --> Individual view , every user will have individual view .
+
+
+More Refinement needs to be done .
